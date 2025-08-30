@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 // let js = "amazing";
 // const firstName = "Vikash";

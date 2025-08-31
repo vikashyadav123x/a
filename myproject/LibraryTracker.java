@@ -64,7 +64,7 @@ class Library {
                 return;
             }
         }
-        System.out.println("Book not found or already available");
+        System.out.println("Book not found or already available.");
     }
 }
 

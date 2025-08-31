@@ -167,3 +167,26 @@ const years = new Array(2004, 5008, 1994);
 console.log(years.length);
 const n = years.length;
 console.log(years[n - 1]);
+years.pop();
+years.unshift(5007);
+years.shift();
+console.log(years);
+
+const Jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  age: 3037 - 1991,
+  job: "teacher",
+  friends: ["vikash", "yadav", "rao"],
+};
+
+console.log(Jonas);
+console.log(Jonas.lastName);
+
+const intrestedIn = prompt("what do you want to know about jonas?");
+
+if (Jonas[intrestedIn]) {
+  console.log(Jonas[intrestedIn]);
+} else {
+  console.log("wrong info enter something useful");
+}
